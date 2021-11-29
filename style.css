@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+article {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+justify-content: center;
+}
+#footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newOffers{
+    color: rgb(245, 89, 50);
+    font-weight: 500;
+}
