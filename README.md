@@ -15,7 +15,7 @@ Deine Seite muss mindestens einen Header mit einem Logo und eine Hauptseite mit 
 
 Jedes Produkt hat ein Bild und einen Button als Kaufaktion. Falls ein Benutzer auf den Button klickt, passiert im Moment noch nichts.
 
-Zusätzlich muss jedes Produkt einen Namen haben. Der Name ist von dir frei wählbar.
+Zusätzlich muss jedes Produkt einen Preis und einen Namen haben. Der Name ist von dir frei wählbar.
 
 ## Ressourcen
 Neben dieser Anleitung findest du ein Bild für das Logo und ein Bild für jedes Produkt. Erstelle einen Branch mit deinem Namen und lade dort deine Ergebnisse hoch.
