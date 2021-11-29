@@ -15,3 +15,4 @@ Zusätzlich muss jedes Produkt einen Namen haben. Der Name ist von dir frei wäh
 
 ## Ressourcen
 Neben dieser Anleitung findest du ein Bild für das Logo und ein Bild für jedes Produkt. Erstelle einen Branch mit deinem Namen und lade dort deine Ergebnisse hoch.
+Achtung: Das Logo hat eine weiße Schrift, benutze daher einen kontraktstarken Hintergrund.
