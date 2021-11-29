@@ -1,0 +1,96 @@
+$red: #d90429;
+$indigo-dark: #2c387e;
+$indigo: #3f51b5;
+$indigo-light: #6573c3;
+$mint: #1de9b6;
+$mint-dark: #14a37f;
+$mint-light: #4aedc4;
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  // header - main - footer
+  grid-template-rows: auto 1fr auto;
+}
+header {
+  background-color: $indigo-dark;
+}
+main {
+  //   width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr; // mobile first
+  gap: 1rem;
+  padding: 1rem;
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+main .card {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+main .product {
+  width: 100%;
+}
+main .title {
+  margin: 1rem 0 0 1rem;
+  color: $indigo-dark;
+  font-size: 1.5rem;
+  font-family: "Rubik", sans-serif;
+}
+main .description {
+  padding: 1rem;
+  line-height: 1.33;
+  height: calc(1rem * 1.33 * 7); // 5 Zeilen Text + 2 Zeilen Rand
+  overflow: auto;
+}
+main .card-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+main .price {
+  //   margin-top: 0.5rem;
+  font-size: 1.67em;
+  font-weight: bold;
+  color: $indigo-light;
+  font-family: "Rubik", sans-serif;
+  flex-basis: 50%;
+  text-align: center;
+}
+main button {
+  flex-basis: 50%;
+  background-color: $mint;
+  font-size: 1.25rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  //   width: calc(100% - 61.8%);
+  //   align-self: center;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+main button:hover {
+  background-color: lighten($mint, 16%);
+}
+
+footer {
+  background-color: $indigo-light;
+  color: rgba(0, 0, 0, 0.67);
+  // centering text
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
