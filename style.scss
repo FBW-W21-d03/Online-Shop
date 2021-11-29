@@ -1,0 +1,119 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 226, 226);
+width: 100vw;
+height: 100vh;
+}
+.logo{
+    width: 50px;
+    height:150px;
+}
+
+
+video{
+    height: 30rem;
+    width: 100vw;
+ object-fit: cover;
+ object-position: center;
+}
+
+.carocelSectio{
+    display: flex;
+justify-content: center;
+
+}
+
+.elC-title{
+    padding-left: 150px;
+    color: white;
+    margin-top: -500px;
+    display: flex;
+    font-size: 10rem;
+      
+}
+
+.paragraf-unserProduct{
+    color: white;
+    padding-left: 150px;
+    font-size: 5rem;
+}
+.cardProuduct{
+    padding: 155px;
+}
+
+.payPal{
+    display: flex;
+
+  align-content: center;
+  align-items: center;
+  width: 150px;
+
+  .img-paypal{
+      width: 155rem;
+   
+     
+  }
+  .paypal{
+      width: 550px;
+      font-size: 45px; 
+       width: 550px;
+  }
+  .peregragPay {
+      color: blue;
+   font-size: 25px;
+ 
+  }
+}
+
+  footer{
+    padding-top: 25px;
+      background: black;
+      color: whitesmoke;
+      .ul-footer{
+          font-size: 20px;
+          padding: 20px;
+          font-size: 30px;
+      }
+      .footer_all{
+   
+        display: flex;  
+        flex-direction:row;
+      }
+      .ul-all{
+          list-style: none;
+          width: 450px;
+        
+          
+      }
+      .news{
+          width: 40%;
+          display: flex;
+          justify-content: center;
+         
+          
+         }
+      }
+      .subscrib{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+       align-items: flex-start;
+
+  }
+  .logo-footer{
+      display: flex;
+ 
+      justify-content: center;
+      text-align: center;
+    
+      
+  }
+  .card-img-top:hover{
+    transform: translate(15px,20px);
+  transition: 500ms;
+}
+
