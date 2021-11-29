@@ -35,6 +35,9 @@ main {
   @media (min-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
   }
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 main .card {
   background-color: #f0f0f0;
@@ -51,10 +54,15 @@ main .title {
   font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
 }
+main .rating {
+  margin: 0.33rem 0 0.33rem 1rem;
+  color: $mint-dark;
+}
 main .description {
-  padding: 1rem;
+  padding: 0 1rem;
+  margin: 1rem 0 2rem 0;
   line-height: 1.33;
-  height: calc(1rem * 1.33 * 7); // 5 Zeilen Text + 2 Zeilen Rand
+  height: calc(1rem * 1.33 * 6); // 5 Zeilen Text + 2 Zeilen Rand
   overflow: auto;
 }
 main .card-footer {
@@ -64,7 +72,7 @@ main .card-footer {
 }
 main .price {
   //   margin-top: 0.5rem;
-  font-size: 1.67em;
+  font-size: 2em;
   font-weight: bold;
   color: $indigo-light;
   font-family: "Rubik", sans-serif;
@@ -74,16 +82,22 @@ main .price {
 main button {
   flex-basis: 50%;
   background-color: $mint;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
   //   width: calc(100% - 61.8%);
   //   align-self: center;
   margin-right: 1rem;
   cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.85);
 }
 main button:hover {
   background-color: lighten($mint, 16%);
+}
+main .fa-shopping-cart {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 footer {

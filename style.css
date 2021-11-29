@@ -43,6 +43,13 @@ main {
   }
 }
 
+@media (min-width: 1600px) {
+  main {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 main .card {
   background-color: #f0f0f0;
   border-radius: 0.5rem;
@@ -66,10 +73,16 @@ main .title {
   font-family: "Rubik", sans-serif;
 }
 
+main .rating {
+  margin: 0.33rem 0 0.33rem 1rem;
+  color: #14a37f;
+}
+
 main .description {
-  padding: 1rem;
+  padding: 0 1rem;
+  margin: 1rem 0 2rem 0;
   line-height: 1.33;
-  height: calc(1rem * 1.33 * 7);
+  height: calc(1rem * 1.33 * 6);
   overflow: auto;
 }
 
@@ -84,7 +97,7 @@ main .card-footer {
 }
 
 main .price {
-  font-size: 1.67em;
+  font-size: 2em;
   font-weight: bold;
   color: #6573c3;
   font-family: "Rubik", sans-serif;
@@ -97,15 +110,22 @@ main button {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   background-color: #1de9b6;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
   margin-right: 1rem;
   cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 main button:hover {
   background-color: #67f0ce;
+}
+
+main .fa-shopping-cart {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
