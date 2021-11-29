@@ -15,3 +15,10 @@
     background-color: #c73e1d;
     background-image: linear-gradient(395deg, #c71d8e 10%, #fc0a0a 27%, #2e86ab 60%, #17fc39);
 }
+
+.bg_product {
+    background-color: rgba(252, 244, 244, 0.507);
+}
+.bg_product:hover {
+    background-color: rgba(252, 252, 252, 0.267);
+}
