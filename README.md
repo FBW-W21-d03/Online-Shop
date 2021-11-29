@@ -20,4 +20,4 @@ Zusätzlich muss jedes Produkt einen Preis und einen Namen haben. Der Preis und 
 ## Ressourcen
 Neben dieser Anleitung findest du ein Bild für das Logo und ein Bild für jedes Produkt. Erstelle einen Branch mit deinem Namen und lade dort deine Ergebnisse hoch.
 
-Achtung: Das Logo hat eine weiße Schrift, benutze daher einen kontraktstarken Hintergrund.
+Achtung: Das Logo hat eine weiße Schrift, benutze daher ei.nen kontraktstarken Hintergrund
