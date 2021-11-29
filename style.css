@@ -1,0 +1,17 @@
+.polaroid {
+    overflow: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: -999;
+}
+
+.rainbow {
+    background-color: #c73e1d;
+    background-image: linear-gradient(395deg, #c71d8e 10%, #fc0a0a 27%, #2e86ab 60%, #17fc39);
+}
