@@ -8,7 +8,7 @@ h1 {text-align: center;}
     list-style: none;
 }    
 
-#container   {padding: 1rem; /* ie padding Eigenschaft ist eine Kurzform für die Innenabstände aller vier Seiten eines Elementes. */
+#container   {padding: 1rem; /* Die padding Eigenschaft ist eine Kurzform für die Innenabstände aller vier Seiten eines Elementes. */
     border: 1px solid gray;}
 
 #container1 {border: 1px solid gray; /* Rand farbe und breite */
