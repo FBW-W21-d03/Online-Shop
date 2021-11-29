@@ -5,6 +5,13 @@
 h1{
     text-align: center;
 }
+li{
+    text-align: center;    
+}
+#adresse{
+    list-style-type:none;
+   padding-left:0;
+}
 .lead{
     text-align: center;
 }
@@ -41,4 +48,24 @@ justify-content: center;
         display: grid;
         grid-template-columns: auto;
     }
+  }
+  #impressumBody{
+      background-color: darkblue;
+  }
+  #adressContainer{
+      background-color: rgba(255, 255, 255, 0.863);
+      margin-left: 33vw;
+      margin-right: 33vw;
+      margin-top: 5rem;
+      padding: 3rem 0;
+  }
+  #homeButt{
+      height: 3rem;
+  }
+  #homeButtContainer{
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem;
+      padding: 4rem;
+      background-color: rgba(255, 255, 255, 0.863);
   }
