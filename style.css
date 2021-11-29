@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(252, 245, 245);
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+
+} 
+.card{
+    margin-top: 40px;
+    background-color: rgba(214, 215, 218, 0.856);
+}
+
+
+h1::before{content: "*";
+    color:black;
+    font-size: 3rem;
+}
+h1::after{
+    content: "*"; color:black;
+    font-size: 3rem
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 4px 4px 6px rgb(70, 67, 67);
+}
+.card-title{
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 4px 4px 6px rgb(70, 67, 67);
+    
+}
+.card-text{
+    font-family: 'Oswald', sans-serif;
+}
+a:hover{
+    font-size: 1.5rem;color: orangered;
+}
+
+.preis{
+    color: red;
+}
