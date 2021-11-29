@@ -25,3 +25,20 @@ justify-content: center;
     color: rgb(245, 89, 50);
     font-weight: 500;
 }
+
+
+  /* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+    article {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+  
+  /* On screens that are 600px wide or less*/
+  @media screen and (max-width: 600px) {
+    article {
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
