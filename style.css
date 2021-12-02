@@ -40,7 +40,47 @@ p {
   background-color: #fcb941;
   padding: 10px 5;
 }
-.preis {
+#preis9   {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis8 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis7 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis6 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis5 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis4 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis3 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis2 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+#preis1 {
   color: red;
   font-size: 35px;
   font-weight: 600;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
+
     <title>Document</title>
 </head>
 
@@ -18,15 +19,35 @@
 
             <div><img src="./logo.png" alt="">
             </div>
+            <div>
+                <h1>Willkommen</h1>
+                <button id="knopf" onclick="knopf()">In $ anzeigen</button>
+
+
+            </div>
+            <h1>Online-Shop</h1>
+
+            <p>Notebook</p>
+            <span id="preis">350</span>
+            <span>€</span>
+            <button onclick="kaufen()">Kaufen!</button>
+
+            <h2>Warenkorb</h2>
+            <ul id="list"></ul>
+            <span>Gesamtsumme:</span>
+            <span id="gesamtbetrag">0</span>
+            <span>€</span>
+
         </header>
 
-        <Article class="online-shop">
+        <article class="online-shop">
             <div><img src="./product01.png" alt="" width="350px">
                 <h2> Lorem ipsum dolor </h2>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 700€</span> </p>
+                <p> <span id="preis1">200</span> </p>
+                <p id="währungZeichen1">€</p>
                 <div>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -40,11 +61,12 @@
             </div>
             <div><img src="./product02.png" alt="" width="350px">
                 <h2> Lorem ipsum dolor </h2>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
+                <p> Lorem } ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 600€</span> </p>
-                  <div>
+                <p> <span id="preis2">400</span> </p>
+                <p id="währungZeichen2">€</p>
+                <div>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -55,12 +77,13 @@
                 <button class="button2" type="button">In den Einkaufswagen</button>
             </div>
             <div><img src="./product03.png" alt="" width="350px">
-                <h2> Lorem ipsum dolor </h2>
+                <h2> Lorem } ipsum dolor </h2>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 900€</span> </p>
-                  <div>
+                <p> <span id="preis3">300</span> </p>
+                <p id="währungZeichen3">€</p>
+                <div>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -75,9 +98,10 @@
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 1000€</span> </p>
-                  <div>
-                    <i class="fas fa-star"></i>
+                <p> <span id="preis4">500</span> </p>
+                <p id="währungZeichen4">€</p>
+                <div>
+                    <i cl }ass="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
@@ -88,16 +112,12 @@
             </div>
             <div><img src="./product05.png" alt="" width="350px">
                 <h2> Lorem ipsum dolor </h2>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
-                    adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
-                    aspernatur!</p>
-                <p> <span class="preis"> Preis: 550€</span> </p>
-                  <div>
+                <p> Lorem ipsum dolor, sit amet consectet Lorem ipsum dolor, sit amet consectet </p>
+                <p> <span id="preis5"> 700</span> </p>
+                <p id="währungZeichen5">€</p>
+                <div>
                     <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i cl }ass="far fa-star"></i>
                 </div>
                 <button class="button1" type="button">Kaufen</button>
                 <button class="button2" type="button">In den Einkaufswagen</button>
@@ -107,10 +127,11 @@
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 800€</span> </p>
-                  <div>
+                <p> <span id="preis6">600</span> </p>
+                <p id="währungZeichen6">€</p>
+                <div>
                     <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <i cl }ass="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
@@ -123,24 +144,25 @@
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 900€</span> </p>
-                  <div>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <button class="button1" type="button">Kaufen</button>
-                <button class="button2" type="button">In den Einkaufswagen</button>
+                <p id="preis7">800</p>
+                <p id="währungZeichen7">€</p>
+                <p> <span }ass="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+            </div>
+            <button class="button1" type="button">Kaufen</button>
+            <button class="button2" type="button">In den Einkaufswagen</button>
             </div>
             <div><img src="./product09.png" alt="" width="350px">
-                <h2> Lorem ipsum dolor </h2>
+                <h2> Lore }m ipsum dolor </h2>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 1100€</span> </p>
-                  <div>
+                <p id="preis8">800</p>
+                <p id="währungZeichen8">€</p>
+                <div>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -155,23 +177,21 @@
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, quisquam vel modi est veniam
                     adipisci ipsam laudantium ducimus maiores aliquid, quidem autem praesentium cum. Repellendus ipsa
                     aspernatur!</p>
-                <p> <span class="preis"> Preis: 750€</span> </p>
-                  <div>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <span id="preis9">700</span>
+                <p id="währungZeichen9">€</p>
+                <div>
+                    <i cla }ss="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
                 <button class="button1" type="button">Kaufen</button>
                 <button class="button2" type="button">In den Einkaufswagen</button>
             </div>
-        </Article>
-        <script>
+        </article>
 
-        </script>
+
+
     </main>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
